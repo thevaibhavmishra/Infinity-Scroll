@@ -1,4 +1,4 @@
-const count = 5;
+let count = 5;
 const apiKey = 'JueJToCc665RRpbglBG-CIUzWxBU0hPVYQdhBfX77Cc'; // access key
 // const apiKey = 'tgJ9jvkPtbBHwbBlRI9fHdQvji6E2KDw27FwmOaLAPY' //  secret key
 
@@ -22,7 +22,7 @@ function imageLoaded() {
     if (imagesLoaded === totalImages) {
         ready = true;
         loader.hidden = true;
-        count = 30;
+        count = 30; 
     }
 }
 
